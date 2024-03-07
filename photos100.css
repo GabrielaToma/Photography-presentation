@@ -1,0 +1,17 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* Avand in vedere ca spatiul ramas in urma pozelor este
+    de 10% si nu folosim Flexbox, pentru a distribui spatiul egal,
+    facem aceasta formula de matematica sau putem scrie direct 1.666%*/
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6); /*pentru ca numele sa inceapa din acelasi punct precum prima poza*/
+    padding: 1.2em 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
